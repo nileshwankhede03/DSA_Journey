@@ -1,4 +1,8 @@
 
+(trick) : same task multiple times
+(same task) : core logic
+(multiple times) : outer loop titkya times
+
 Nested Loops : 
 
 jevha eka question madhe 2 task astat
