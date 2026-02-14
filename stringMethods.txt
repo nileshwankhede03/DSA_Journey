@@ -1,0 +1,12 @@
+| #  | Method           | Kya karta hai (How it works)                   | Use Case (Kaha use hota hai)         | Input Example              | Output          |
+| -- | ---------------- | ---------------------------------------------- | ------------------------------------ | -------------------------- | --------------- |
+| 1  | `length()`       | String ki total length return karta hai        | Palindrome, loops, size check        | `"hello".length()`         | `5`             |
+| 2  | `charAt(i)`      | Given index ka character return karta hai      | Character traversal, frequency count | `"hello".charAt(1)`        | `'e'`           |
+| 3  | `equals(s)`      | Do strings ka content compare karta hai        | Password check, string match         | `"abc".equals("abc")`      | `true`          |
+| 4  | `indexOf(x)`     | Character ya substring ka first index deta hai | Substring search, position find      | `"banana".indexOf('a')`    | `1`             |
+| 5  | `substring(s,e)` | String ka part extract karta hai               | Sliding window, parsing              | `"program".substring(1,4)` | `"rog"`         |
+| 6  | `toCharArray()`  | String ko char array me convert karta hai      | Sorting, manual operations           | `"cat".toCharArray()`      | `['c','a','t']` |
+| 7  | `contains(s)`    | Check karta hai substring present hai ya nahi  | Pattern detection, validation        | `"hello".contains("ell")`  | `true`          |
+| 8  | `split(regex)`   | String ko parts me todta hai                   | Word count, tokenization             | `"a,b,c".split(",")`       | `["a","b","c"]` |
+| 9  | `replace(a,b)`   | Character ya substring replace karta hai       | Cleaning, transformation             | `"apple".replace('p','x')` | `"axxle"`       |
+| 10 | `trim()`         | Starting aur ending spaces remove karta hai    | Input cleaning, form data            | `"  hi  ".trim()`          | `"hi"`          |
