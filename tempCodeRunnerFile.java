@@ -1,1 +1,3 @@
-i + 97
+for (int i : arr) {
+            System.out.println(i);
+        }
